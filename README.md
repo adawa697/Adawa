@@ -25,9 +25,9 @@ ADAWA Collection Center is a community-focused business providing fast, reliable
 **Monday - Sunday** - Open Daily
 
 ## Contact Us
-- **WhatsApp** - Available for inquiries and orders
-- **Location** - Your Local Neighborhood
-- **Phone** - Available upon request
+- **WhatsApp** - 0727994374
+- **Location** - Kiliwehiri, opposite office of the ward 
+- **Phone** - 0727994374
 
 ## Why Choose Us?
 ✓ Fast and reliable service  
