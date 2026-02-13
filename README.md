@@ -1,4 +1,4 @@
-# ADAWA Collection Center
+# ADAWA Tawakal Collection Center
 
 ## Welcome to ADAWA Collection Center
 Your Trusted Neighborhood Shop & M-Pesa Agent
