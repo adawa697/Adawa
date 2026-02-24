@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Table</title>
+</head>
+<body>
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Country</th>
+        <th>Job</th>
+    </tr>
+    <tr>
+        <td>Adan</td>
+        <td>20</td>
+        <td>Kenya</td>
+        <td>Student</td>
+    </tr>
+    <tr>
+        <td>Mohamed</td>
+        <td>22</td>
+        <td>USA</td>
+        <td>Developer</td>
+    </tr>
+    <tr>
+        <td>Alex</td>
+        <td>24</td>
+        <td>Australia</td>
+        <td>Teacher</td>
+    </tr>
+</table>
+
+</body>
+</html>
