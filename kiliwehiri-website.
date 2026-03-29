@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ÆDÆWÆ Tawakal Collection Center</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+body{
+margin:0;
+font-family:Segoe UI, sans-serif;
+background:#f3f3f3;
+}
+
+/* Header */
+header{
+background:#00a651;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+/* Navbar */
+nav{
+display:flex;
+justify-content:center;
+gap:30px;
+background:#111;
+padding:15px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+
+/* Hero */
+.hero{
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+justify-content:center;
+gap:40px;
+padding:60px;
+background:white;
+}
+
+.hero img{
+width:280px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.hero-text h1{
+font-size:40px;
+color:#00a651;
+}
+
+/* Services */
+.services{
+padding:60px;
+text-align:center;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+}
+
+.card{
+background:white;
+width:220px;
+padding:25px;
+border-radius:15px;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card i{
+font-size:40px;
+color:#00a651;
+margin-bottom:10px;
+}
+
+/* Gallery */
+.slider{
+width:90%;
+margin:auto;
+overflow:hidden;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,0.2);
+}
+
+.slides{
+display:flex;
+animation:slide 10s infinite;
+}
+
+.slides img{
+width:100%;
+}
+
+@keyframes slide{
+0%{transform:translateX(0);}
+50%{transform:translateX(-100%);}
+100%{transform:translateX(0);}
+}
+
+/* Map */
+.map{
+padding:50px;
+text-align:center;
+background:white;
+}
+
+/* Contact */
+.contact{
+background:#00a651;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+/* WhatsApp */
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+font-size:28px;
+padding:15px;
+border-radius:50%;
+}
+
+/* Floating icon */
+.icon-float{
+position:fixed;
+top:20%;
+left:10px;
+font-size:30px;
+color:#00a651;
+animation:float 6s infinite;
+}
+
+@keyframes float{
+0%{transform:translateY(0);}
+50%{transform:translateY(20px);}
+100%{transform:translateY(0);}
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>ÆDÆWÆ Tawakal Collection Center</h1>
+<p>M-Pesa | SIM Registration | Retail Shop</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Services</a>
+<a href="#">Gallery</a>
+<a href="#">Location</a>
+<a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+
+<img src="owner.jpg">
+
+<div class="hero-text">
+<h1>Your Trusted Local Shop</h1>
+<p>Fast M-Pesa services, Safaricom SIM registration, snacks, and cold drinks available daily.</p>
+</div>
+
+</section>
+
+<section class="services">
+<h2>Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<i class="fas fa-money-bill-wave"></i>
+<h3>M-Pesa</h3>
+<p>Withdraw & Deposit</p>
+</div>
+
+<div class="card">
+<i class="fas fa-sim-card"></i>
+<h3>SIM Registration</h3>
+<p>Safaricom Services</p>
+</div>
+
+<div class="card">
+<i class="fas fa-credit-card"></i>
+<h3>Card Payments</h3>
+<p>Secure Payment</p>
+</div>
+
+<div class="card">
+<i class="fas fa-burger"></i>
+<h3>Food</h3>
+<p>Snacks & Meals</p>
+</div>
+
+<div class="card">
+<i class="fas fa-bottle-water"></i>
+<h3>Cold Drinks</h3>
+<p>Juice & Soda</p>
+</div>
+
+</div>
+</section>
+
+<section class="slider">
+<div class="slides">
+<img src="shop.jpg">
+<img src="shop.jpg">
+</div>
+</section>
+
+<section class="map">
+<h2>Find Our Shop</h2>
+<iframe src="https://maps.google.com/maps?q=Kiliwehiri&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+</section>
+
+<section class="contact">
+<h2>Contact Us</h2>
+<p>Phone: 0727994374</p>
+</section>
+
+<div class="icon-float">
+<i class="fas fa-mobile-alt"></i>
+</div>
+
+<a class="whatsapp" href="https://wa.me/254727994374">
+<i class="fab fa-whatsapp"></i>
+</a>
+
+<footer>
+© 2026 ÆDÆWÆ Tawakal Collection Center
+</footer>
+
+</body>
+</html>
